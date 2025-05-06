@@ -1,0 +1,5 @@
+/venv
+movie_management/media
+movie_management/db.sqlite3
+/.vscode
+__pycache__/
