@@ -78,7 +78,7 @@ Make sure you have the following installed:
 
 *Simple REST JWT*
 
-* **Bearer Token (OAuth 2.0):** Include an access token in the `Authorization` header (e.g., `Authorization: Bearer your_access_token`).
+* **Bearer Token (JWT):** Include an access token in the `Authorization` header (e.g., `Authorization: Bearer your_access_token`).
 
 To gain access and refresh tokens, access the following API endpoints:
 
