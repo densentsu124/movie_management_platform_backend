@@ -11,12 +11,6 @@
     * [Running the Development Server](#running-the-development-server)
 * [Usage](#usage)
     * [API Endpoints](#api-endpoints)
-* [Technology Stack](#technology-stack)
-* [Contributing](#contributing)
-* [License](#license)
-* [Support](#support)
-* [Roadmap](#roadmap)
-* [Acknowledgments](#acknowledgments)
 
 ## Getting Started
 
@@ -79,10 +73,6 @@ Make sure you have the following installed:
     ```
 
 # USAGE
-
-## Base URL
-
-The base URL for all API endpoints is: `[YOUR_BASE_API_URL]`
 
 ## Authentication
 
