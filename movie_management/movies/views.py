@@ -105,6 +105,8 @@ class VideosHandler(APIView):
     """
     View for getting videos
     """
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
 
     def get(self, request, id):
         status = status_code.HTTP_200_OK
@@ -129,6 +131,8 @@ class ThumbnailHandler(APIView):
     """
     View for getting thumbnails
     """
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
 
     def get(self, request, id):
         status = status_code.HTTP_200_OK
